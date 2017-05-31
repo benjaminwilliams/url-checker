@@ -1,5 +1,6 @@
 const request = require('request');
 const urlList = require('./urls.json');
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 urlList.forEach((item) => {
     request(item.url, (err, response, body) => {
