@@ -1,7 +1,11 @@
 
 [
   {
-    "name": "RX",
-    "url": "https://aem-uat.digital-ext.np.tu-aws.com/content/govia/en_au/content/before-you-travel/etag-accounts.html"
+    "name": "homepage",
+    "url": "https://www.linkt.com.au/sydney"
+  },
+  {
+    "name": "homepage",
+    "url": "https://www.citylink.com.au"
   }
 ]

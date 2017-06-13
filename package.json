@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "request": "^2.81.0"
+    "html-metadata": "^1.6.3",
+    "request": "^2.81.0",
+    "winston": "^2.3.1"
   }
 }
