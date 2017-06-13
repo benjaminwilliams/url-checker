@@ -3,8 +3,18 @@ const request = require('request');
 const meta = require('html-metadata');
 const urlList = require('./urls.json');
 
-const urlPrefixLength = 69;
+// OPTIONS
+//
+// Set the number of characters to chop off the front of the URL
+const urlPrefixLength = 69; // use 0 to not remove any part of the URL
+// The delimiter will separate values
+// Usually we will use commas (for a .csv file) but as the meta can contain
+// commas in the description, we can use something else like ;
 const delimiter = ';';
+
+// END OPTIONS
+
+
 
 let isMeta = false;
 
